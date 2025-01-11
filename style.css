@@ -1,0 +1,54 @@
+.container{
+    width: 1180px;
+    margin: auto;
+}
+body{
+    font-family: "Fira Sans", serif;
+}
+nav{display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.btnsignin{
+    padding: 10px 20px;
+    border: 1px solid #006A50;
+    color: #006A50;
+    font-weight: 500;
+    background-color: transparent;
+    border-radius: 5px;
+    transition: 0.5s;
+    
+}
+.btnsignin:hover{
+    background-color: #006A50;
+    color: white;
+}
+.banner{
+  background-color: #C6E4D6; 
+  padding: 120px 50px; 
+  display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+  border-radius: 10px
+}
+.banner span{
+    color: #0E0E0E;
+    font-weight: 400;
+}
+.banner h1{
+    font-size: 40px;
+    font-weight: 700;
+
+}
+.praimary{
+    background-color: #006A50;
+    padding: 12px 20px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+}
+.banner img{
+    width: 350px;
+}
