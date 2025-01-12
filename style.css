@@ -148,6 +148,64 @@ nav{display: flex;
 .box img{
 border-radius: 10px;
 }
+#donate_container .donate_title {
+    text-align: center;
+    font-weight: bolder;
+    margin-top: 17px;
+    margin-bottom: 17px;
+  }
+  #donate_container .donate_description {
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    opacity: 0.6;
+  }
+  #donate_container .done_amount {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    gap: 32px;
+  }
+  #donate_container .done_amount h1 {
+    flex: 1;
+    border: 1px solid #0e0e0e;
+    padding: 35px ;
+    border-radius: 10px;
+    text-align: center;
+    transition: all 0.3s ease-in;
+  }
+  #donate_container .done_amount h1:hover {
+    background-color: #c6e4d6;
+    cursor: pointer;
+  }
+  #donate_amount_conatiner {
+    display: flex;
+    flex-direction: column;
+  }
+  #donate_amount_conatiner input {
+    padding: 25px;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 0 0 0 0.1px #0e0e0e;
+    border: none;
+    outline: none;
+    margin-right: 63px;
+    margin-left:63px ;
+    font-size: 16px;
+  }
+  #doneBtn_container {
+    text-align: center;
+  }
+  #donebtn {
+    margin: 16px 0px;
+    padding: 16px;
+    transition: all 0.2s ease-in-out;
+  }
+  #donebtn:hover {
+    background-color: blanchedalmond;
+    box-shadow: 0 0 0 0.1px #0e0e0e;
+    color: darkblue;
+  }
 /* neslatter section */
 #newslater_section{
     margin: 0 auto;
