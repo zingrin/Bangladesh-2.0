@@ -1,9 +1,26 @@
-.container{
-    width: 1180px;
-    margin: auto;
-}
+
 body{
     font-family: "Fira Sans", serif;
+    width: 1180px;
+    margin: auto;
+    background: #F5F5F5;
+}
+.btn{
+    background-color: #006A50;
+    padding: 0.6rem;
+    color: white;
+    border-radius: 5px;
+    outline: none;
+    border: nonegit;
+    transition: all 0.3s ease-in;
+    font-weight: bolder;
+}
+.btn:hover{
+background-color: #FFC239;
+outline: none;
+border: none;
+cursor: pointer;
+color: blue;
 }
 nav{display: flex;
     justify-content: space-between;
@@ -58,6 +75,31 @@ nav{display: flex;
     margin: 30px 0;
     
 }
+#quts {
+    margin-bottom: 48px;
+  }
+  #quts .quts_container {
+    border:  1px solid #0e0e0e;
+    padding: 24px;
+    margin-right: 24px;
+    border-radius: 5px;
+  }
+  #quts .quts_container{
+    background-image: url("../assets/quote-bg.png");
+    background-repeat: no-repeat;
+    background-position: top left;
+  }
+  #quts .quts_container .bgimag p {
+    opacity: 0.8;
+    margin-bottom:16px;
+  }
+  #quts .quts_container h4 {
+    font-weight: bolder;
+    font-size: 16px;
+  }
+  #quts .quts_container p small {
+    opacity: 0.6;}
+
 .vision-card{
     background-color: #D5E1F5;
     padding: 40px;
@@ -86,12 +128,23 @@ nav{display: flex;
     background-color: #F7EBCF;
 
 }
-.quote-cointainer{
-    box-shadow: 1px 1px 3px #000000a7;
-padding: 40px;
+
+
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px;
+    background-color: white;
+    margin-bottom: 32px;
+    border-radius: 10px;
+}
+.box_content{
+  padding: 38px 48px; 
+  border-radius: 10px;
+
+}
+
+.box img{
 border-radius: 10px;
-margin: 40px 0;
-background: url("./assets/quote-bg.png");
-background-repeat: no-repeat;
-background-position: 38px 30px;
 }
